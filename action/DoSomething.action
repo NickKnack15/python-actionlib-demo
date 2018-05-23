@@ -1,0 +1,8 @@
+# Define the goal
+uint32 how_long_to_do_something  # specify how long to do the thing for
+---
+# Define the result
+bool did_finish_doing_something  # specify what the result is
+---
+# Define a feedback message
+float32 percent_complete  # specify a feedback metric

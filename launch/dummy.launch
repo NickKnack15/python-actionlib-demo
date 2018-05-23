@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="actionlib_demo" name="dummy_action_client" type="start_dummy_action_client.py" output="screen"/>
+  <node pkg="actionlib_demo" name="dummy_action_server" type="start_dummy_action_server.py" output="screen"/>
+
+</launch>
